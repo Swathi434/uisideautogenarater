@@ -1,0 +1,42 @@
+/* App.css */
+body {
+  background-image: url('./images/Backgroud.png');
+  background-size: cover; /* Adjust as needed */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* This keeps the background fixed while scrolling */
+}
+/* Dropdown styles */
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Increase the width and height of the dropdown select element */
+.dropdown select {
+  width: 400px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+  padding: 8px; /* Add padding to make it look better */
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+button {
+  padding: 8px 16px;
+  width: 200px;
+  background-color: #00ff04;
+  height: 38px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-top-right-radius: 10px; /* Adjust the border radius for the top-right corner */
+  border-bottom-right-radius: 10px;
+  
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
