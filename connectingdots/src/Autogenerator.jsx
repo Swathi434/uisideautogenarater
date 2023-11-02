@@ -30,6 +30,7 @@ const Autogenerator = () => {
       .then((response) => {
         console.log(response.data);
       })
+      
       .catch((error) => {
         console.error(error);
       });
@@ -37,6 +38,8 @@ const Autogenerator = () => {
   };
 
   return (
+
+
     <div className="dropdown-container">
       {isVisible ? (
         <div className="dropdown">
